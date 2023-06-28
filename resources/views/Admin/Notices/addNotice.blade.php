@@ -1,14 +1,14 @@
 //addnoticesection admin
 <x-app-layout>  
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight"> //input font-semibold text-xl text-gray-800
             {{ __('Notices') }}
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="py-12"> //class py-12
         <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg"> //class  overflow-hidden shadow-sm
                 <div class="p-6 bg-white border-b border-gray-200">
                     <form action="{{route('notice.add')}}" method="post" enctype="multipart/form-data"
                           class="flex items-center justify-center">
@@ -33,7 +33,7 @@
                                     <span
                                         class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"><a
                                             class="text-red-600" href="{{route('notice.delete', $item->id)}}">Delete<i
-                                                class="fa fa-trash pl-2"></i></a></span>
+                                                class="fa fa-trash pl-2"></i></a></span> //class fa fa-trash pl-2
                                 </div>
                             </div>
                         @endforeach
