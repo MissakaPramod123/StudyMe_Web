@@ -1,14 +1,14 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('My profile') }}
+            {{ __('My profile') }} //Users can view their profile
         </h2>
     </x-slot>
     <div class="max-w-7xl mx-auto py-10 sm:px-6 lg:px-8">
         <div class="md:grid md:grid-cols-3 md:gap-6">
             <div class="md:col-span-1 flex justify-between">
                 <div class="px-4 sm:px-0">
-                    <h3 class="text-lg font-medium text-gray-900">Profile Information</h3>
+                    <h3 class="text-lg font-medium text-gray-900">Profile Information</h3>  //users can update their user informations here
 
                     <p class="mt-1 text-sm text-gray-600">
                         Update your account's profile information and email address.
